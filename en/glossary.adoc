@@ -1,107 +1,305 @@
 = Glossary
-Version: Draft 1
+:imagesdir: ../images
+:toc:
+:toclevels: 3
+:numbered:
 
-[glossary]
-Action:: 
-  One of a fixed set of functions all datatypes may support. Not all datatypes support all actions.
-Actor::
-  
-all-word!::
-  
-any-block!::
-  
-any-function!::
-  
-any-list!::
-  
-any-object!::
-  
-any-path!::
-  
-any-string!::
-  
-any-type!::
-  
-any-word!::
-  
-Block::
-    
-Compiler::
-    
-Console::
-    
-Context::
-    
-Datatype::
-  Datatypes are the foundation of Red...
-default!::
-  
+== About
+
+Project with a breadth of scope, new terminology, acronyms, different from mainstream, mental models, jargon, slang and lingo, metaphorical ...
+
+Definitions appear in *bold*, while newly introduced terms are marked with _italics_.
+
+== Titles & Trademarks
+
+[[red]]
+Red::
+Initially concieved as an acronym for "Rebol Extended Dialect", learn more at https://www.red-lang.org/[project's website]...
+
+[[rebol]]
+REBOL::
+Pronounced as "rebel", acronym for "Relative Expression Based Object Language", also written as Rebol... learn more at http://www.rebol.com/[project's website]...
+
+[[rebol-technologies]]
+REBOL Technologies (RT)::
+...
+
+[[redbol]]
+Redbol::
+Pronounced as "..." ...
+
+[[reboler]]
+Reboler::
+Pronounced as "..." ...
+
+[[reducer]]
+Reducer::
+A pun on "Red user", `reduce` complexity...
+
+[[redeemer]]
+Redeemer::
+Technological evangelist pitching Red and related technologies...
+
+== Basic Concepts
+
+[[loading]]
+Loading::
+`load` phase, ...
+
+[[molding]]
+Molding::
+...
+
+[[forming]]
+Forming::
+...
+
+[[codec]]
+Codec::
+...
+
+[[dialect]]
 Dialect::
-    An embedded DSL that shares the same syntax as the Red language.
-Domain Specific Language (DSL)::
-    A computer language specialized to a particular application domain. Sometimes called a (POL) Problem Oriented Language.
-Draw::
-    
-Event::
-    
-external!::
-  
-Face::
-    
-Facet::
-    
-immediate!::
- 
-Op::
-    A function with an infix interface, where the first arg appears to the left of the function name. 
-internal!::
-  
-Interpreter::
-    
-Layout::
-    
-libRed::
-    
-List::
-  
-Mezzanine::
-  This is a Rebol term. It is used to mean a function written in Rebol (as opposed to being written in C) that is included in the standard distribution. A mezzanine in Red is a function written wholly in Red that is included in the standard distribution. Mezzanine functions do not require compilation.
- 
-Module::
-    
-Native:: 
-  Functions written in Red/System, and exposed for use in Red.  
-Number::
-    
-number!::
-    
-Object::
-    
-Pane::
-    
-Path::
-  
-Pseudo-type::
-  An informal name for `typeset`.
-Routine::
-  A Red/System function written inline in Red.  
-Runtime::
-    
-scalar!::
-    
+...
+
+[[dsl]]
+(Embedded) Domain-Specific Language (eDSL, DSL)::
+...
+
+[[relative-expression]]
+Relative Expression::
+...
+
+[[cst]]
+Concrete Syntax Tree (CST)::
+...
+
+== Values
+
+[[value]]
+Value::
+...
+
+[[datatype]]
+Datatype::
+...
+
+[[typeset]]
+Typeset::
+pseudo-type? ...
+
+[[literal]]
+Literal::
+...
+
+[[construction-syntax]]
+Construction Syntax::
+...
+
+[[slot]]
+Slot::
+value slot, sometimes used synonimously with <<cell, cell>> ... container ...
+
+[[cell]]
+Cell::
+Unit of measure ...
+
+[[header]]
+Header::
+...
+
+[[datatype-id]]
+Datatype ID::
+...
+
+[[newline-flag]]
+Newline Flag::
+...
+
+[[payload]]
+Payload::
+...
+
+[[direct-value]]
+Direct Value::
+...
+
+[[indirect-value]]
+Indirect Value::
+...
+
+=== Symbolic values
+
+[[variable]]
+Variable::
+A misused term ... l-value, locator, address vs. values as a first-class citizen ...
+
+[[symbol]]
+Symbol::
+...
+
+[[symbol-id]]
+Symbol ID::
+...
+
+[[context]]
+Context::
+...
+
+[[local-word]]
+Local Word::
+...
+
+[[global-context]]
+Global Context::
+...
+
+[[binding]]
+Binding::
+...
+
+- words refers to a value
+- word is bound to a context
+- set word to a value
+- bind word to a context
+- bind block to a context
+
+=== Series
+
+[[series]]
 Series::
-    
-series!::
-  
-String::
-    
-Typeset::   
-  Typesets are groupings of datatypes with shared characteristics...
-Toolchain::
-    
-VID::
-    
-View::
-    
-Word::
-    
+...
+
+[[buffer]]
+Buffer::
+...
+
+[[copying]]
+Copying::
+...
+
+[[head]]
+Head::
+...
+
+[[tail]]
+Tail::
+...
+
+[[index]]
+Index::
+...
+
+== Functions
+
+[[action]]
+Action::
+...
+
+[[native]]
+Native::
+...
+
+[[function-constructor]]
+Function Constructor::
+...
+
+[[mezzanine]]
+Mezzanine::
+...
+
+== Evaluation
+
+[[homoiconicity]]
+Homoiconicity::
+...
+
+[[meta-circularity]]
+Meta-Circularity::
+...
+
+[[none-transparency]]
+`None` Transparency::
+...
+
+[[path-notation]]
+Path Notation::
+...
+
+[[keyword]]
+Keyword::
+...
+
+[[truthy]]
+Truthy::
+...
+
+[[falsy]]
+Falsy::
+...
+
+[[refinement-system]]
+Refinement System::
+...
+
+[[encapping]]
+Encapping::
+...
+
+== Reactivity
+
+[[reactor]]
+Reactor::
+...
+
+[[reactive-formula]]
+Reactive Formula::
+...
+
+[[ownership-system]]
+Ownership System::
+...
+
+== View System
+
+[[view-engine]]
+View Engine::
+...
+
+[[vid]]
+Visual Interface Dialect (VID)::
+...
+
+[[rtd]]
+Rich Text Dialect (RTD)::
+...
+
+[[face]]
+Face::
+...
+
+[[facet]]
+Facet::
+...
+
+[[pane]]
+Pane::
+...
+
+== Distributed Computing & Blockchain
+
+[[x-internet]]
+X-Internet::
+...
+
+[[reblet]]
+Reblet::
+...
+
+[[c3]]
+Cross-Chain Compiler (C3)::
+...
+
+[[red-token]]
+RED::
+...
