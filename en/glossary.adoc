@@ -10,6 +10,12 @@ Project with a breadth of scope, new terminology, acronyms, different from mains
 
 Definitions appear in *bold*, while newly introduced terms are marked with _italics_.
 
+- pronounciation tips, etymology
+- examples of correct usage, code snippets
+- related definitions (cross-references)
+- "learn more" links to external resources
+- ? high-level mind-map overview
+
 == Titles & Trademarks
 
 [[red]]
