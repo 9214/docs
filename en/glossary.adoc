@@ -26,6 +26,14 @@ Initially concieved as an acronym for "Rebol Extended Dialect", learn more at ht
 REBOL::
 Pronounced as "rebel", acronym for "Relative Expression Based Object Language", also written as Rebol... learn more at http://www.rebol.com/[project's website]...
 
+[[lava]]
+LAVA::
+How Rebol was initially called, stands for "Language for Audio and Video Applications" (?)...
+
+[[magma]]
+Magma::
+Operating system with LAVA as a scripting language ...
+
 [[rebol-technologies]]
 REBOL Technologies (RT)::
 ...
