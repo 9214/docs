@@ -6,7 +6,7 @@
 
 == About
 
-Project with a breadth of scope, new terminology, acronyms, different from mainstream, mental models, jargon, slang and lingo, metaphorical ...
+Project with a breadth of scope, new terminology, acronyms, different from mainstream, mental models, jargon, slang and lingo, metaphorical and context-sensitive, interrelated, because of that the glossary is divided into conceptually related sections, from general to more specific ... it is advised to read this document in a sequential order on the first reading, and use it as a quick reference whereafter ... 
 
 Definitions appear in *bold*, while newly introduced terms are marked with _italics_.
 
